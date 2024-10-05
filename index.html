@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPortfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <header>
-        <nav class="container">
-            <div class="logo">Portfolio</div>
-            <ul>
-                <a href="first">
-                    <li>Home</li>
-                </a>
-                <a href="second">
-                    <li>project</li>
-                </a>
-                <a href="third">
-                    <li>contact</li>
-                </a>
-            </ul>
-        </nav>
-     </header>
+    <nav><div class="nav__content">
+        <div class="logo"><a href="#">Portfolio</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">skils</a></li>
+            <li><a href="">portfolio</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </div></nav>
+    <section class="section">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Mayank Sharma <br>a</span> web Developer
+                </h1>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia porro dolor in, incidunt facilis corrupti nobis inventore. Nisi ducimus qui incidunt maiores iste saepe perspiciatis, fugit, quasi accusamus, necessitatibus soluta?
+                </p>
+                <div class="action__btns">
+                    <button class="hire_me">Hire Me</button>
+                    <button class="Portfolio">Portfolio</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Screenshot 2024-10-05 170728.png" alt="portfolio">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
